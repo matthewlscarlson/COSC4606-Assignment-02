@@ -1,0 +1,24 @@
+<html lang='en-CA'>
+    <h1>Modify User</h1>
+    <form class='action_form' id='modify_user_form' action=''>
+        <label for='uid'>ID:</label><br>
+        <input type='text' id='uid' name='uid'><br>
+
+        <label for='user'>Username:</label><br>
+        <input type='text' id='user' name='user'><br>
+
+        <label for='pwd'>Password:</label><br>
+        <input type='text' id='pwd' name='pwd'><br>
+
+        <!--No Instructor role because Faculty automatically becomes Instructor when registered to teach course-->
+        <label for='role'>Role:</label><br>
+        <select id='role' name='role'>
+            <option value='Student'>Student</option>
+            <option value='Faculty'>Faculty</option>
+            <option value='Registrar'>Registrar</option>
+            <option value='Admin'>Admin</option>
+        </select><br>
+
+        <input type='submit' value='Modify User'>
+    </form>
+</html>

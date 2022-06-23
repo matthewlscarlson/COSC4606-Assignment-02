@@ -1,0 +1,109 @@
+/* Default */
+* {
+    font-family     : 'Open Sans', sans-serif;
+    font-size       : .75rem;
+    list-style-type : none;
+}
+
+/* Links should not be so ugly */
+a {
+    color           : white;
+    text-decoration : none;
+}
+
+/* Forms */
+form input, label {
+    margin  : 0.25rem 0.25rem 0.25rem 0;
+    padding : 0.25rem 0.25rem 0.25rem 0;
+}
+
+h1 {
+    font-size   : 2rem;
+    font-weight : normal;
+}
+
+ul {
+    margin  : 0;
+    padding : 0;
+}
+
+/* Buttons */
+input[type='submit'] {
+    background-color : #b3212c;
+    border           : 0 !important;
+    color            : white;
+    outline          : 0 !important;
+    outline-style    : none;
+    padding          : 1rem;
+}
+input[type='submit']:active { padding : 0.75rem; }
+input[type='submit']:hover { background-color : #d72836; }
+
+/* Login screen */
+
+#login_header, #login_form { padding-left: 1.25rem; }
+
+/* Navigation bar that shows actions (e.g., forms, reports, etc.) */
+.nav {
+     background-color : #b3212c;
+     height           : 100%;
+     left             : 0;
+     overflow-x       : hidden;
+     padding-top      : 3.75rem;
+     position         : fixed;
+     top              : 0;
+     transition       : .5s;
+     width            : 0;
+     z-index          : 1;
+}
+
+/* Navbar text */
+.nav a, .nav h1 {
+    color           : white;
+    display         : block;
+    padding         : .5rem .5rem .5rem 2rem;
+}
+
+/* Hover over actions */
+.nav a:hover { color : #cccccc; }
+
+/* Exit button */
+.nav .exit {
+    font-size   : 3rem;
+    position    : absolute;
+    right       : 1rem;
+    top         : 0;
+}
+
+#main {
+    /* Transition when navbar is opened or closed */
+    padding-left : 1.25rem;
+    transition   : margin-left .5s;
+}
+
+#header {
+    /* border-bottom         : 0.2rem; */
+    /* border-color          : black;  */
+    /* border-bottom-style   : solid;  */
+    color                 : white;
+    background-color      : #b3212c;
+    display               : flex;
+    font-size             : 1.25rem;
+    padding-left          : 1.25rem;
+    /* Transition when navbar is opened or closed */
+    transition            : margin-left .5s;
+    height: 5.625rem;
+}
+
+#header #header_options {
+    line-height   : 4.375rem;
+    margin-left   : auto;
+    padding-right : 1.25rem;
+}
+
+#actions, #logout {
+    font-size        : 1.75rem;
+    padding          : 0.5rem;
+    vertical-align   : middle;
+}
+#actions:hover, #logout:hover { color: #cccccc; }
