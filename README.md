@@ -40,10 +40,10 @@ Logging in will redirect you to the home page. From there you can either log out
 
 ## Screenshots
 
-![cosc4606-assignment-02-login](https://mcarlson.xyz/img/cosc4606-assignment-02-login.png)
+![cosc4606-assignment-02-login](https://mattcarlson.org/img/cosc4606-assignment-02-login.png)
 
-![cosc4606-assignment-02-admin](https://mcarlson.xyz/img/cosc4606-assignment-02-admin.jpg)
+![cosc4606-assignment-02-admin](https://mattcarlson.org/img/cosc4606-assignment-02-admin.jpg)
 
-![cosc4606-assignment-02-add-user](https://mcarlson.xyz/img/cosc4606-assignment-02-add-user.png)
+![cosc4606-assignment-02-add-user](https://mattcarlson.org/img/cosc4606-assignment-02-add-user.png)
 
-![cosc4606-assignment-02-view-users](https://mcarlson.xyz/img/cosc4606-assignment-02-view-users.png)
+![cosc4606-assignment-02-view-users](https://mattcarlson.org/img/cosc4606-assignment-02-view-users.png)
